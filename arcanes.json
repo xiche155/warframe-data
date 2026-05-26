@@ -1,0 +1,8 @@
+{
+    "version": "1.0.0",
+    "update_date": "2025-01-15",
+    "data": [
+        {"name": "结果赋能", "type": "战甲", "source": "兆力使", "category": "warframe"},
+        {"name": "偏折赋能", "type": "战甲", "source": "兆力使", "category": "warframe"}
+    ]
+}
