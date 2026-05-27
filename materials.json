@@ -1,0 +1,17 @@
+import json
+
+# 请将下面替换为你程序中的完整 materials_data 列表
+materials_data = [
+    # 把完整的 174 个材料字典粘贴到这里
+]
+
+output = {
+    "version": "1.0.0",
+    "update_date": "2025-01-16",
+    "data": materials_data
+}
+
+with open("materials.json", "w", encoding="utf-8") as f:
+    json.dump(output, f, ensure_ascii=False, indent=2)
+
+print(f"生成成功，共 {len(materials_data)} 种材料")
